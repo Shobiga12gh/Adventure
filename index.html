@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Adventure</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <h1 class="logo">ADVENTURE</h1>
+      <ul class="nav-links">
+        <li class="active"><a href="#"></a>Home</li>
+        <li><a href="#"></a>Tour</li>
+        <li><a href="#"></a>Explore</li>
+        <li><a href="#"></a>About</li>
+        <li class="ctn"><a href="#"></a>Contact</li>
+      </ul>
+      <img src="./hamburger.png" alt="" class="menu-btn" />
+    </nav>
+    <header>
+      <div class="header-content">
+        <h2>Explore the world</h2>
+        <div class="line"></div>
+        <h1>with loved one</h1>
+        <a href="#" class="ctn">Learn more</a>
+      </div>
+    </header>
+    <!-- events -->
+    <section class="events">
+      <div class="title">
+        <h1>Our Events Shedule</h1>
+        <div class="line"></div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <img src="./11.jpg" alt="" />
+          <h4>Everst Camping</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+            tempora necessitatibus sed molestias esse, quaerat sapiente nostrum
+            vitae voluptatibus inventore autem tenetur dignissimos similique
+            laborum animi, impedit maiores. Qui, quibusdam?
+          </p>
+          <a href="#" class="ctn">Learn More</a>
+        </div>
+        <div class="col">
+          <img src="./12.jpg" alt="" />
+          <h4>Everst Camping</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+            tempora necessitatibus sed molestias esse, quaerat sapiente nostrum
+            vitae voluptatibus inventore autem tenetur dignissimos similique
+            laborum animi, impedit maiores. Qui, quibusdam?
+          </p>
+          <a href="#" class="ctn">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="explore">
+      <div class="explore-content">
+        <h1>Explore the Advanture</h1>
+        <div class="line"></div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+          fugit numquam sapiente doloremque error alias rem repellat, ratione
+          tempora natus ab, perspiciatis quod sunt? Voluptatibus, maxime?
+          Laudantium molestiae officiis dolore.
+        </p>
+        <a href="#" class="ctn">Learn More</a>
+      </div>
+    </section>
+
+    <section class="tour">
+      <div class="row">
+        <div class="col content-col">
+          <h1>Upcoming Events</h1>
+          <a href="@" class="line"></a>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+            facilis perspiciatis? Quis laudantium quo sequi beatae dolorum saepe
+            impedit alias sint sed obcaecati placeat consectetur a libero
+            debitis, iure quisquam?
+          </p>
+          <a href="#" class="ctn">Learn more</a>
+        </div>
+        <div class="col image-col">
+          <div class="image-gallery">
+            <img src="./131.jpg" alt="" />
+            <img src="./132.jpg" alt="" />
+            <img src="./133.jpg" alt="" />
+            <img src="./134.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <p>
+        A good plus of traveling is that often you get new skills without
+        difficulty and without even noticing it.
+      </p>
+      <p>&copy 2023</p>
+    </section>
+
+    <script>
+      const menuBtn = document.queryselector(".menu-btn");
+      const navlinks = document.queryselector(".nav-links");
+
+      menuBtn.addEventListener("click", () => {
+        navlinks.classList.toggle("mobile-menu");
+      });
+    </script>
+  </body>
+</html>
